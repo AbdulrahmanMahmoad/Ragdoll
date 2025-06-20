@@ -1,0 +1,89 @@
+{
+	"name": "roblox-ts-game",
+	"tree": {
+		"$className": "DataModel",
+		"HttpService": {
+			"$className": "HttpService",
+			"$properties": {
+				"HttpEnabled": true
+			}
+		},
+		"Lighting": {
+			"$properties": {
+				"Ambient": [0.5411764979362488, 0.5411764979362488, 0.5411764979362488],
+				"Brightness": 3.0,
+				"EnvironmentDiffuseScale": 1.0,
+				"EnvironmentSpecularScale": 1.0,
+				"OutdoorAmbient": [
+					0.5411764979362488, 0.5411764979362488, 0.5411764979362488
+				]
+			},
+			"$path": "models/Lighting"
+		},
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Assets": {
+				"$path": "models/Assets"
+			},
+			"TS": {
+				"$path": "out/shared"
+			},
+			"rbxts_include": {
+				"node_modules": {
+					"$className": "Folder",
+					"@rbxts": {
+						"$path": "node_modules/@rbxts"
+					},
+					"@flamework": {
+						"$path": "node_modules/@flamework"
+					}
+				},
+				"$path": "include"
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"TS": {
+				"$path": "out/server"
+			}
+		},
+		"ServerStorage": {
+			"$path": "models/ServerStorage"
+		},
+		"SoundService": {
+			"$className": "SoundService",
+			"$properties": {
+				"RespectFilteringEnabled": true
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"TS": {
+					"$path": "out/client"
+				}
+			},
+			"$properties": {
+				"ClassicDeath": {
+					"Bool": true
+				}
+			}
+		},
+		"Workspace": {
+			"$properties": {
+				"UseNewLuauTypeSolver": {
+					"Enum": 0
+				}
+			},
+			"$path": "models/Workspace"
+		}
+	},
+	"globIgnorePaths": ["**/package.json", "**/tsconfig.json"],
+	"syncbackRules": {
+		"ignorePaths": ["src/*", "include/*", "node_modules/*"],
+		"syncCurrentCamera": false,
+		"syncUnscriptable": true,
+		"ignoreReferents": false
+	}
+}

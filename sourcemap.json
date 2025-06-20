@@ -1,0 +1,2234 @@
+{
+	"name": "roblox-ts-game",
+	"className": "DataModel",
+	"filePaths": ["default.project.json"],
+	"children": [
+		{ "name": "HttpService", "className": "HttpService" },
+		{
+			"name": "Lighting",
+			"className": "Lighting",
+			"filePaths": ["models/Lighting.rbxm"],
+			"children": [
+				{ "name": "ColorGrading", "className": "ColorGradingEffect" },
+				{ "name": "Atmosphere", "className": "Atmosphere" },
+				{ "name": "Sky", "className": "Sky" },
+				{ "name": "Bloom", "className": "BloomEffect" },
+				{ "name": "ColorCorrection", "className": "ColorCorrectionEffect" },
+				{ "name": "DepthOfField", "className": "DepthOfFieldEffect" },
+				{ "name": "SunRays", "className": "SunRaysEffect" }
+			]
+		},
+		{
+			"name": "ReplicatedStorage",
+			"className": "ReplicatedStorage",
+			"children": [
+				{
+					"name": "Assets",
+					"className": "Folder",
+					"filePaths": ["models/Assets.rbxm"],
+					"children": [
+						{
+							"name": "ClassicSword",
+							"className": "Tool",
+							"children": [
+								{
+									"name": "Handle",
+									"className": "Part",
+									"children": [
+										{ "name": "Mesh", "className": "SpecialMesh" },
+										{ "name": "SwordSlash", "className": "Sound" },
+										{ "name": "SwordLunge", "className": "Sound" },
+										{ "name": "Unsheath", "className": "Sound" }
+									]
+								},
+								{ "name": "SwordScript", "className": "Script" },
+								{ "name": "MouseIcon", "className": "LocalScript" },
+								{ "name": "ThumbnailCamera", "className": "Camera" }
+							]
+						}
+					]
+				},
+				{ "name": "TS", "className": "Folder" },
+				{
+					"name": "rbxts_include",
+					"className": "Folder",
+					"children": [
+						{
+							"name": "Promise",
+							"className": "ModuleScript",
+							"filePaths": ["include\\Promise.lua"]
+						},
+						{
+							"name": "RuntimeLib",
+							"className": "ModuleScript",
+							"filePaths": ["include\\RuntimeLib.lua"]
+						},
+						{
+							"name": "node_modules",
+							"className": "Folder",
+							"children": [
+								{
+									"name": "@rbxts",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "compiler-types",
+											"className": "Folder",
+											"children": [{ "name": "types", "className": "Folder" }]
+										},
+										{
+											"name": "types",
+											"className": "Folder",
+											"children": [
+												{
+													"name": "include",
+													"className": "Folder",
+													"children": [
+														{ "name": "generated", "className": "Folder" }
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "ServerScriptService",
+			"className": "ServerScriptService",
+			"children": [{ "name": "TS", "className": "Folder" }]
+		},
+		{
+			"name": "ServerStorage",
+			"className": "ServerStorage",
+			"filePaths": ["models/ServerStorage.rbxm"]
+		},
+		{ "name": "SoundService", "className": "SoundService" },
+		{
+			"name": "StarterPlayer",
+			"className": "StarterPlayer",
+			"children": [
+				{
+					"name": "StarterPlayerScripts",
+					"className": "StarterPlayerScripts",
+					"children": [{ "name": "TS", "className": "Folder" }]
+				}
+			]
+		},
+		{
+			"name": "Workspace",
+			"className": "Workspace",
+			"filePaths": ["models/Workspace.rbxm"],
+			"children": [
+				{ "name": "Camera", "className": "Camera" },
+				{ "name": "Terrain", "className": "Terrain" },
+				{ "name": "Spawn", "className": "SpawnLocation" },
+				{
+					"name": "Baseplate",
+					"className": "Model",
+					"children": [
+						{
+							"name": "Prototype_Decals",
+							"className": "Model",
+							"children": [
+								{
+									"name": "Light_Prototype_Decals",
+									"className": "Model",
+									"children": [
+										{
+											"name": "2",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "3",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "4",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "5",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "6",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "7",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "8",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "9",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "10",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "11",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "12",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "13",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "1",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										}
+									]
+								},
+								{
+									"name": "Dark_Prototype_Decals",
+									"className": "Model",
+									"children": [
+										{
+											"name": "1",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "2",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "3",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "4",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "5",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "6",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "7",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "8",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "9",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "10",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "11",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "12",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "13",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										}
+									]
+								},
+								{
+									"name": "Red_Prototype_Decals",
+									"className": "Model",
+									"children": [
+										{
+											"name": "2",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "3",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "4",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "5",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "6",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "7",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "8",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "9",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "10",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "11",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "12",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "13",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "1",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										}
+									]
+								},
+								{
+									"name": "Orange_Prototype_Decals",
+									"className": "Model",
+									"children": [
+										{
+											"name": "2",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "3",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "4",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "5",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "6",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "7",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "8",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "9",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "10",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "11",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "12",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "13",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "1",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										}
+									]
+								},
+								{
+									"name": "Green_Prototype_Decals",
+									"className": "Model",
+									"children": [
+										{
+											"name": "2",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "3",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "4",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "5",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "6",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "7",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "8",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "9",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "10",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "11",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "12",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "13",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "1",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										}
+									]
+								},
+								{
+									"name": "Purple_Prototype_Decals",
+									"className": "Model",
+									"children": [
+										{
+											"name": "2",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "3",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "4",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "5",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "6",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "7",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "8",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "9",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "10",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "11",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "12",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "13",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										},
+										{
+											"name": "1",
+											"className": "Part",
+											"children": [{ "name": "Decal", "className": "Decal" }]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "WindowWall",
+							"className": "Model",
+							"children": [
+								{
+									"name": "Part",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" },
+										{ "name": "TextureBack", "className": "Texture" }
+									]
+								},
+								{
+									"name": "Part",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" },
+										{ "name": "TextureBack", "className": "Texture" }
+									]
+								},
+								{
+									"name": "Part",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" },
+										{ "name": "TextureBack", "className": "Texture" }
+									]
+								},
+								{
+									"name": "Part",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" },
+										{ "name": "TextureBack", "className": "Texture" }
+									]
+								}
+							]
+						},
+						{
+							"name": "Structure",
+							"className": "Model",
+							"children": [
+								{
+									"name": "DefaultWall",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								},
+								{
+									"name": "DefaultWall",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								},
+								{
+									"name": "WindowWall",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								},
+								{
+									"name": "WindowWall",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								},
+								{
+									"name": "DefaultWall",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								},
+								{
+									"name": "DefaultWall",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								},
+								{
+									"name": "DefaultWall",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								},
+								{
+									"name": "DoorWall",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								},
+								{
+									"name": "DefaultWall",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								},
+								{
+									"name": "Dummy",
+									"className": "Model",
+									"children": [
+										{
+											"name": "HumanoidRootPart",
+											"className": "Part",
+											"children": [
+												{ "name": "Root Hip", "className": "Motor6D" }
+											]
+										},
+										{
+											"name": "Torso",
+											"className": "Part",
+											"children": [
+												{ "name": "Left Hip", "className": "Motor6D" },
+												{ "name": "Right Hip", "className": "Motor6D" },
+												{ "name": "Left Shoulder", "className": "Motor6D" },
+												{ "name": "Right Shoulder", "className": "Motor6D" },
+												{ "name": "Neck", "className": "Motor6D" }
+											]
+										},
+										{ "name": "Left Leg", "className": "Part" },
+										{ "name": "Right Leg", "className": "Part" },
+										{ "name": "Left Arm", "className": "Part" },
+										{ "name": "Right Arm", "className": "Part" },
+										{
+											"name": "Head",
+											"className": "Part",
+											"children": [
+												{ "name": "Face", "className": "Decal" },
+												{ "name": "Mesh", "className": "SpecialMesh" }
+											]
+										},
+										{ "name": "Humanoid", "className": "Humanoid" }
+									]
+								}
+							]
+						},
+						{
+							"name": "Dummy",
+							"className": "Model",
+							"children": [
+								{
+									"name": "HumanoidRootPart",
+									"className": "Part",
+									"children": [{ "name": "Root Hip", "className": "Motor6D" }]
+								},
+								{
+									"name": "Torso",
+									"className": "Part",
+									"children": [
+										{ "name": "Left Hip", "className": "Motor6D" },
+										{ "name": "Right Hip", "className": "Motor6D" },
+										{ "name": "Left Shoulder", "className": "Motor6D" },
+										{ "name": "Right Shoulder", "className": "Motor6D" },
+										{ "name": "Neck", "className": "Motor6D" }
+									]
+								},
+								{ "name": "Left Leg", "className": "Part" },
+								{ "name": "Right Leg", "className": "Part" },
+								{ "name": "Left Arm", "className": "Part" },
+								{ "name": "Right Arm", "className": "Part" },
+								{
+									"name": "Head",
+									"className": "Part",
+									"children": [
+										{ "name": "Face", "className": "Decal" },
+										{ "name": "Mesh", "className": "SpecialMesh" }
+									]
+								},
+								{ "name": "Humanoid", "className": "Humanoid" }
+							]
+						},
+						{
+							"name": "DoorWall",
+							"className": "Model",
+							"children": [
+								{
+									"name": "Part",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								},
+								{
+									"name": "Part",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								},
+								{
+									"name": "Part",
+									"className": "Part",
+									"children": [
+										{ "name": "TextureBack", "className": "Texture" },
+										{ "name": "TextureBottom", "className": "Texture" },
+										{ "name": "TextureFront", "className": "Texture" },
+										{ "name": "TextureLeft", "className": "Texture" },
+										{ "name": "TextureRight", "className": "Texture" },
+										{ "name": "TextureTop", "className": "Texture" }
+									]
+								}
+							]
+						},
+						{
+							"name": "Baseplate",
+							"className": "Part",
+							"children": [
+								{ "name": "TextureBack", "className": "Texture" },
+								{ "name": "TextureBottom", "className": "Texture" },
+								{ "name": "TextureFront", "className": "Texture" },
+								{ "name": "TextureLeft", "className": "Texture" },
+								{ "name": "TextureRight", "className": "Texture" },
+								{ "name": "TextureTop", "className": "Texture" }
+							]
+						}
+					]
+				},
+				{
+					"name": "Police Car",
+					"className": "Model",
+					"children": [
+						{
+							"name": "Chassis",
+							"className": "Model",
+							"children": [
+								{
+									"name": "FloorPanel",
+									"className": "Part",
+									"children": [
+										{ "name": "WeldConstraint", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" }
+									]
+								},
+								{
+									"name": "SeatFR",
+									"className": "Seat",
+									"children": [
+										{ "name": "DoorHinge", "className": "HingeConstraint" },
+										{ "name": "WeldConstraint", "className": "WeldConstraint" },
+										{ "name": "ExitPosition", "className": "Attachment" },
+										{ "name": "DoorLatchWeld", "className": "WeldConstraint" },
+										{
+											"name": "PromptLocation",
+											"className": "Attachment",
+											"children": [
+												{
+													"name": "EndorsedVehicleProximityPromptV1",
+													"className": "ProximityPrompt"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "RedressMount",
+									"className": "Part",
+									"children": [
+										{ "name": "Weld", "className": "WeldConstraint" },
+										{
+											"name": "RedressOrientation",
+											"className": "AlignOrientation"
+										},
+										{ "name": "RedressPosition", "className": "AlignPosition" },
+										{ "name": "RedressTarget", "className": "Attachment" },
+										{ "name": "RedressAttachment", "className": "Attachment" }
+									]
+								},
+								{
+									"name": "VehicleSeat",
+									"className": "VehicleSeat",
+									"children": [
+										{ "name": "DoorHinge", "className": "HingeConstraint" },
+										{
+											"name": "SeatToChassisWeld",
+											"className": "WeldConstraint"
+										},
+										{ "name": "ExitPosition", "className": "Attachment" },
+										{ "name": "DoorLatchWeld", "className": "WeldConstraint" },
+										{
+											"name": "PromptLocation",
+											"className": "Attachment",
+											"children": [
+												{
+													"name": "EndorsedVehicleProximityPromptV1",
+													"className": "ProximityPrompt"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "SeatRR",
+									"className": "Seat",
+									"children": [
+										{ "name": "DoorHinge", "className": "HingeConstraint" },
+										{ "name": "WeldConstraint", "className": "WeldConstraint" },
+										{ "name": "ExitPosition", "className": "Attachment" },
+										{ "name": "DoorLatchWeld", "className": "WeldConstraint" },
+										{
+											"name": "PromptLocation",
+											"className": "Attachment",
+											"children": [
+												{
+													"name": "EndorsedVehicleProximityPromptV1",
+													"className": "ProximityPrompt"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "SeatRL",
+									"className": "Seat",
+									"children": [
+										{ "name": "WeldConstraint", "className": "WeldConstraint" },
+										{ "name": "DoorHinge", "className": "HingeConstraint" },
+										{ "name": "ExitPosition", "className": "Attachment" },
+										{ "name": "DoorLatchWeld", "className": "WeldConstraint" },
+										{
+											"name": "PromptLocation",
+											"className": "Attachment",
+											"children": [
+												{
+													"name": "EndorsedVehicleProximityPromptV1",
+													"className": "ProximityPrompt"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "TorsionBarMount",
+									"className": "Part",
+									"children": [
+										{ "name": "WeldConstraint", "className": "WeldConstraint" },
+										{
+											"name": "TorsionBarAttachment",
+											"className": "Attachment"
+										}
+									]
+								},
+								{
+									"name": "TorsionBar",
+									"className": "Part",
+									"children": [
+										{
+											"name": "TorsionBarHinge",
+											"className": "HingeConstraint"
+										},
+										{
+											"name": "TorsionBar",
+											"className": "Part",
+											"children": [
+												{
+													"name": "TorsionArmWeld",
+													"className": "WeldConstraint"
+												},
+												{
+													"name": "TorsionSpringAttachment",
+													"className": "Attachment"
+												}
+											]
+										},
+										{
+											"name": "TorsionBar",
+											"className": "Part",
+											"children": [
+												{
+													"name": "TorsionArmWeld",
+													"className": "WeldConstraint"
+												},
+												{
+													"name": "TorsionSpringAttachment",
+													"className": "Attachment"
+												}
+											]
+										},
+										{
+											"name": "TorsionBarAttachment",
+											"className": "Attachment"
+										}
+									]
+								},
+								{
+									"name": "Weight",
+									"className": "Part",
+									"children": [
+										{ "name": "WeldConstraint", "className": "WeldConstraint" }
+									]
+								},
+								{
+									"name": "SteeringRack",
+									"className": "Part",
+									"children": [
+										{
+											"name": "SteeringRackAttachment",
+											"className": "Attachment"
+										},
+										{ "name": "TieRodAttachmentL", "className": "Attachment" },
+										{ "name": "TieRodAttachmentR", "className": "Attachment" }
+									]
+								},
+								{
+									"name": "SteeringRackMount",
+									"className": "Part",
+									"children": [
+										{ "name": "WeldConstraint", "className": "WeldConstraint" },
+										{
+											"name": "SteeringRackAttachment",
+											"className": "Attachment"
+										}
+									]
+								},
+								{
+									"name": "SuspensionFR",
+									"className": "Model",
+									"children": [
+										{
+											"name": "Wheel",
+											"className": "Part",
+											"children": [
+												{
+													"name": "MotorAttachment",
+													"className": "Attachment"
+												},
+												{ "name": "WheelWeld", "className": "WeldConstraint" },
+												{
+													"name": "NoCollide_F_bumper",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_LF_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door_glass",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door_int",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_trim_black",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_roof",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_LR_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_white",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_red_tail",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_white",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_red_front",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RF_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_blue_front",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_blue",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_dark_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_blue1",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_interior",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_hood",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_glass",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_exhaust",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_R_bumper",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_R_glass",
+													"className": "NoCollisionConstraint"
+												}
+											]
+										},
+										{
+											"name": "SteeringKnuckleArm",
+											"className": "Part",
+											"children": [
+												{
+													"name": "Arm",
+													"className": "Part",
+													"children": [
+														{
+															"name": "WeldConstraint",
+															"className": "WeldConstraint"
+														},
+														{
+															"name": "TieRodAttachment",
+															"className": "Attachment"
+														}
+													]
+												},
+												{
+													"name": "KnuckleAttachment",
+													"className": "Attachment"
+												},
+												{ "name": "MotorAttachment", "className": "Attachment" }
+											]
+										},
+										{
+											"name": "StroutMount",
+											"className": "Part",
+											"children": [
+												{
+													"name": "StrutMountWeld",
+													"className": "WeldConstraint"
+												},
+												{
+													"name": "StrutSpringAttachmentR",
+													"className": "Attachment"
+												},
+												{
+													"name": "KnuckleAttachmentR",
+													"className": "Attachment"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "SuspensionFL",
+									"className": "Model",
+									"children": [
+										{
+											"name": "Wheel",
+											"className": "Part",
+											"children": [
+												{
+													"name": "MotorAttachment",
+													"className": "Attachment"
+												},
+												{ "name": "WheelWeld", "className": "WeldConstraint" },
+												{
+													"name": "NoCollide_F_bumper",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_LF_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door_glass",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door_int",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_trim_black",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_roof",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_LR_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_white",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_red_tail",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_white",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_red_front",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RF_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_blue_front",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_blue",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_dark_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_blue1",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_interior",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_hood",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_glass",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_exhaust",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_R_bumper",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_R_glass",
+													"className": "NoCollisionConstraint"
+												}
+											]
+										},
+										{
+											"name": "SteeringKnuckleArm",
+											"className": "Part",
+											"children": [
+												{
+													"name": "Arm",
+													"className": "Part",
+													"children": [
+														{
+															"name": "WeldConstraint",
+															"className": "WeldConstraint"
+														},
+														{
+															"name": "TieRodAttachment",
+															"className": "Attachment"
+														}
+													]
+												},
+												{
+													"name": "KnuckleAttachment",
+													"className": "Attachment"
+												},
+												{ "name": "MotorAttachment", "className": "Attachment" }
+											]
+										},
+										{
+											"name": "StroutMount",
+											"className": "Part",
+											"children": [
+												{
+													"name": "StrutMountWeld",
+													"className": "WeldConstraint"
+												},
+												{
+													"name": "StrutSpringAttachmentL",
+													"className": "Attachment"
+												},
+												{
+													"name": "KnuckleAttachmentL",
+													"className": "Attachment"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "TorsionBar",
+									"className": "Part",
+									"children": [
+										{
+											"name": "TorsionBarHinge",
+											"className": "HingeConstraint"
+										},
+										{
+											"name": "TorsionBar",
+											"className": "Part",
+											"children": [
+												{
+													"name": "TorsionArmWeld",
+													"className": "WeldConstraint"
+												},
+												{
+													"name": "TorsionSpringAttachment",
+													"className": "Attachment"
+												}
+											]
+										},
+										{
+											"name": "TorsionBar",
+											"className": "Part",
+											"children": [
+												{
+													"name": "TorsionArmWeld",
+													"className": "WeldConstraint"
+												},
+												{
+													"name": "TorsionSpringAttachment",
+													"className": "Attachment"
+												}
+											]
+										},
+										{
+											"name": "TorsionBarAttachment",
+											"className": "Attachment"
+										}
+									]
+								},
+								{
+									"name": "TorsionBarMount",
+									"className": "Part",
+									"children": [
+										{ "name": "WeldConstraint", "className": "WeldConstraint" },
+										{
+											"name": "TorsionBarAttachment",
+											"className": "Attachment"
+										}
+									]
+								},
+								{
+									"name": "Weight",
+									"className": "Part",
+									"children": [
+										{ "name": "WeldConstraint", "className": "WeldConstraint" },
+										{ "name": "Trail", "className": "Trail" }
+									]
+								},
+								{
+									"name": "SuspensionRR",
+									"className": "Model",
+									"children": [
+										{
+											"name": "Wheel",
+											"className": "Part",
+											"children": [
+												{
+													"name": "MotorAttachment",
+													"className": "Attachment"
+												},
+												{ "name": "WheelWeld", "className": "WeldConstraint" },
+												{
+													"name": "NoCollide_F_bumper",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_LF_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door_glass",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door_int",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_trim_black",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_roof",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_LR_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_white",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_red_tail",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_white",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_red_front",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RF_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_blue_front",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_blue",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_dark_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_blue1",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_interior",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_hood",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_glass",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_exhaust",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_R_bumper",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_R_glass",
+													"className": "NoCollisionConstraint"
+												}
+											]
+										},
+										{
+											"name": "StrutMount",
+											"className": "Part",
+											"children": [
+												{
+													"name": "StrutMountWeld",
+													"className": "WeldConstraint"
+												},
+												{
+													"name": "MotorAttachment",
+													"className": "Attachment"
+												},
+												{
+													"name": "StrutSpringAttachmentR",
+													"className": "Attachment"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "SuspensionRL",
+									"className": "Model",
+									"children": [
+										{
+											"name": "Wheel",
+											"className": "Part",
+											"children": [
+												{
+													"name": "MotorAttachment",
+													"className": "Attachment"
+												},
+												{ "name": "WheelWeld", "className": "WeldConstraint" },
+												{
+													"name": "NoCollide_F_bumper",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_LF_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door_glass",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_door_int",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_trim_black",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_roof",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_LR_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_white",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_red_tail",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_white",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_red_front",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RF_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_blue_front",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_rack_blue",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_dark_red",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_light_blue1",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_interior",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_RR_fender",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_hood",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_glass",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_exhaust",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_R_bumper",
+													"className": "NoCollisionConstraint"
+												},
+												{
+													"name": "NoCollide_R_glass",
+													"className": "NoCollisionConstraint"
+												}
+											]
+										},
+										{
+											"name": "StroutMount",
+											"className": "Part",
+											"children": [
+												{
+													"name": "StrutMountWeld",
+													"className": "WeldConstraint"
+												},
+												{
+													"name": "MotorAttachment",
+													"className": "Attachment"
+												},
+												{
+													"name": "StrutSpringAttachmentL",
+													"className": "Attachment"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Constraints",
+							"className": "Folder",
+							"children": [
+								{ "name": "MotorFL", "className": "CylindricalConstraint" },
+								{ "name": "MotorFR", "className": "CylindricalConstraint" },
+								{ "name": "MotorRL", "className": "CylindricalConstraint" },
+								{ "name": "MotorRR", "className": "CylindricalConstraint" },
+								{ "name": "SteeringArmHingeL", "className": "HingeConstraint" },
+								{ "name": "SteeringArmHingeR", "className": "HingeConstraint" },
+								{
+									"name": "SteeringPrismatic",
+									"className": "PrismaticConstraint"
+								},
+								{ "name": "SteeringTieRodL", "className": "RodConstraint" },
+								{ "name": "SteeringTieRodR", "className": "RodConstraint" },
+								{ "name": "StrutSpringFL", "className": "SpringConstraint" },
+								{ "name": "StrutSpringFR", "className": "SpringConstraint" },
+								{ "name": "StrutSpringRL", "className": "SpringConstraint" },
+								{ "name": "StrutSpringRR", "className": "SpringConstraint" },
+								{
+									"name": "TorsionBarSpringFL",
+									"className": "SpringConstraint"
+								},
+								{
+									"name": "TorsionBarSpringFR",
+									"className": "SpringConstraint"
+								},
+								{
+									"name": "TorsionBarSpringRL",
+									"className": "SpringConstraint"
+								},
+								{
+									"name": "TorsionBarSpringRR",
+									"className": "SpringConstraint"
+								}
+							]
+						},
+						{
+							"name": "Animations",
+							"className": "Folder",
+							"children": [
+								{ "name": "Driver_Seated", "className": "Animation" },
+								{ "name": "Passenger_Seated", "className": "Animation" }
+							]
+						},
+						{
+							"name": "Remotes",
+							"className": "Folder",
+							"children": [
+								{ "name": "ExitSeat", "className": "RemoteEvent" },
+								{ "name": "SetThrottle", "className": "RemoteEvent" },
+								{ "name": "ForceExitSeat", "className": "RemoteEvent" }
+							]
+						},
+						{
+							"name": "Body",
+							"className": "Model",
+							"children": [
+								{
+									"name": "F_bumper",
+									"className": "MeshPart",
+									"children": [{ "name": "front", "className": "Decal" }]
+								},
+								{
+									"name": "FRdoor",
+									"className": "Model",
+									"children": [
+										{
+											"name": "RF_door",
+											"className": "MeshPart",
+											"children": [
+												{ "name": "frdoor", "className": "Decal" },
+												{ "name": "DoorAttachment", "className": "Attachment" },
+												{ "name": "FRdoorWeld", "className": "WeldConstraint" },
+												{ "name": "FRdoorWeld", "className": "WeldConstraint" },
+												{ "name": "FRdoorWeld", "className": "WeldConstraint" }
+											]
+										},
+										{ "name": "RF_door_glass", "className": "MeshPart" },
+										{ "name": "RF_door_int", "className": "MeshPart" },
+										{ "name": "RF_door_mirror", "className": "MeshPart" }
+									]
+								},
+								{
+									"name": "RR",
+									"className": "Model",
+									"children": [
+										{
+											"name": "tire",
+											"className": "MeshPart",
+											"children": [
+												{ "name": "RRWeld", "className": "WeldConstraint" },
+												{ "name": "RRWeld", "className": "WeldConstraint" }
+											]
+										},
+										{ "name": "RR_wheel", "className": "MeshPart" },
+										{ "name": "RR_wheel_trim", "className": "MeshPart" }
+									]
+								},
+								{
+									"name": "RL",
+									"className": "Model",
+									"children": [
+										{
+											"name": "tire",
+											"className": "MeshPart",
+											"children": [
+												{ "name": "RLWeld", "className": "WeldConstraint" },
+												{ "name": "RLWeld", "className": "WeldConstraint" }
+											]
+										},
+										{ "name": "LR_wheel", "className": "MeshPart" },
+										{ "name": "LR_wheel_trim", "className": "MeshPart" }
+									]
+								},
+								{
+									"name": "RLdoor",
+									"className": "Model",
+									"children": [
+										{
+											"name": "LR_door",
+											"className": "MeshPart",
+											"children": [
+												{ "name": "Rearleft door", "className": "Decal" },
+												{ "name": "DoorAttachment", "className": "Attachment" },
+												{ "name": "RLdoorWeld", "className": "WeldConstraint" },
+												{ "name": "RLdoorWeld", "className": "WeldConstraint" }
+											]
+										},
+										{ "name": "LR_door_int", "className": "MeshPart" },
+										{ "name": "LR_door_glass", "className": "MeshPart" }
+									]
+								},
+								{
+									"name": "LF_fender",
+									"className": "MeshPart",
+									"children": [{ "name": "flfender", "className": "Decal" }]
+								},
+								{
+									"name": "RRdoor",
+									"className": "Model",
+									"children": [
+										{
+											"name": "RR_door",
+											"className": "MeshPart",
+											"children": [
+												{ "name": "rrdoor", "className": "Decal" },
+												{ "name": "DoorAttachment", "className": "Attachment" },
+												{ "name": "RRdoorWeld", "className": "WeldConstraint" },
+												{ "name": "RRdoorWeld", "className": "WeldConstraint" }
+											]
+										},
+										{ "name": "RR_door_glass", "className": "MeshPart" },
+										{ "name": "RR_door_int", "className": "MeshPart" }
+									]
+								},
+								{
+									"name": "FR",
+									"className": "Model",
+									"children": [
+										{
+											"name": "tire",
+											"className": "MeshPart",
+											"children": [
+												{ "name": "FRWeld", "className": "WeldConstraint" },
+												{ "name": "FRWeld", "className": "WeldConstraint" }
+											]
+										},
+										{ "name": "RF_wheel", "className": "MeshPart" },
+										{ "name": "RF_wheel_trim", "className": "MeshPart" }
+									]
+								},
+								{
+									"name": "FL",
+									"className": "Model",
+									"children": [
+										{
+											"name": "tire",
+											"className": "MeshPart",
+											"children": [
+												{ "name": "FLWeld", "className": "WeldConstraint" },
+												{ "name": "FLWeld", "className": "WeldConstraint" }
+											]
+										},
+										{ "name": "LF_wheel", "className": "MeshPart" },
+										{ "name": "LF_wheel_trim", "className": "MeshPart" }
+									]
+								},
+								{
+									"name": "FLdoor",
+									"className": "Model",
+									"children": [
+										{
+											"name": "LF_door",
+											"className": "MeshPart",
+											"children": [
+												{ "name": "frontleftdoor", "className": "Decal" },
+												{ "name": "DoorAttachment", "className": "Attachment" },
+												{ "name": "FLdoorWeld", "className": "WeldConstraint" },
+												{ "name": "FLdoorWeld", "className": "WeldConstraint" },
+												{ "name": "FLdoorWeld", "className": "WeldConstraint" }
+											]
+										},
+										{ "name": "LF_door_glass", "className": "MeshPart" },
+										{ "name": "LF_door_int", "className": "MeshPart" },
+										{ "name": "LF_door_mirror", "className": "MeshPart" }
+									]
+								},
+								{ "name": "trim_black", "className": "MeshPart" },
+								{
+									"name": "roof",
+									"className": "MeshPart",
+									"children": [{ "name": "roof", "className": "Decal" }]
+								},
+								{
+									"name": "LR_fender",
+									"className": "MeshPart",
+									"children": [{ "name": "rearl fender", "className": "Decal" }]
+								},
+								{ "name": "light_white", "className": "MeshPart" },
+								{ "name": "light_red_tail", "className": "MeshPart" },
+								{ "name": "light_red", "className": "MeshPart" },
+								{ "name": "light_rack_white", "className": "MeshPart" },
+								{ "name": "light_rack_red_front", "className": "MeshPart" },
+								{ "name": "light_rack_red", "className": "MeshPart" },
+								{ "name": "light_rack_glass", "className": "MeshPart" },
+								{
+									"name": "RF_fender",
+									"className": "MeshPart",
+									"children": [{ "name": "fRfender", "className": "Decal" }]
+								},
+								{ "name": "light_rack_blue_front", "className": "MeshPart" },
+								{ "name": "light_rack_blue", "className": "MeshPart" },
+								{ "name": "light_rack1", "className": "MeshPart" },
+								{ "name": "light_dark_red", "className": "MeshPart" },
+								{ "name": "light_blue1", "className": "MeshPart" },
+								{ "name": "interior", "className": "MeshPart" },
+								{
+									"name": "RR_fender",
+									"className": "MeshPart",
+									"children": [{ "name": "rearR fender", "className": "Decal" }]
+								},
+								{
+									"name": "hood",
+									"className": "MeshPart",
+									"children": [{ "name": "hood", "className": "Decal" }]
+								},
+								{ "name": "glass", "className": "MeshPart" },
+								{ "name": "exhaust", "className": "MeshPart" },
+								{
+									"name": "R_bumper",
+									"className": "MeshPart",
+									"children": [{ "name": "Rear", "className": "Decal" }]
+								},
+								{ "name": "R_glass", "className": "MeshPart" },
+								{
+									"name": "Center",
+									"className": "MeshPart",
+									"children": [
+										{ "name": "VehicleSeat", "className": "Attachment" },
+										{ "name": "SeatFR", "className": "Attachment" },
+										{ "name": "SeatRR", "className": "Attachment" },
+										{ "name": "SeatRL", "className": "Attachment" },
+										{ "name": "BodyAttachmentFL", "className": "Attachment" },
+										{ "name": "BodyAttachmentFR", "className": "Attachment" },
+										{ "name": "BodyAttachmentRL", "className": "Attachment" },
+										{ "name": "BodyAttachmentRR", "className": "Attachment" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" },
+										{ "name": "BodyWeld", "className": "WeldConstraint" }
+									]
+								}
+							]
+						},
+						{
+							"name": "BindableEvents",
+							"className": "Folder",
+							"children": [
+								{ "name": "ForceExitSeat", "className": "BindableEvent" }
+							]
+						},
+						{
+							"name": "Scripts",
+							"className": "Folder",
+							"children": [
+								{ "name": "Chassis", "className": "ModuleScript" },
+								{
+									"name": "Driver",
+									"className": "LocalScript",
+									"children": [
+										{ "name": "Throttle", "className": "NumberValue" },
+										{
+											"name": "AngularMotorVelocity",
+											"className": "NumberValue"
+										},
+										{ "name": "HandBrake", "className": "NumberValue" },
+										{ "name": "Steering", "className": "NumberValue" },
+										{ "name": "ForwardVelocity", "className": "NumberValue" },
+										{ "name": "CarValue", "className": "ObjectValue" },
+										{ "name": "Redress", "className": "NumberValue" },
+										{
+											"name": "SeatingModuleReference",
+											"className": "ObjectValue"
+										}
+									]
+								},
+								{ "name": "Effects", "className": "ModuleScript" },
+								{
+									"name": "InputImageLibrary",
+									"className": "ModuleScript",
+									"children": [
+										{ "name": "Spritesheet", "className": "ModuleScript" },
+										{
+											"name": "Spritesheets",
+											"className": "Folder",
+											"children": [
+												{
+													"name": "XboxOne",
+													"className": "Folder",
+													"children": [
+														{ "name": "Dark", "className": "ModuleScript" },
+														{ "name": "Light", "className": "ModuleScript" }
+													]
+												}
+											]
+										}
+									]
+								},
+								{ "name": "Keymap", "className": "ModuleScript" },
+								{
+									"name": "LocalVehicleGui",
+									"className": "ModuleScript",
+									"children": [
+										{
+											"name": "VehicleGui",
+											"className": "ScreenGui",
+											"children": [
+												{ "name": "Car", "className": "ObjectValue" },
+												{
+													"name": "TouchControlFrame",
+													"className": "Frame",
+													"children": [
+														{
+															"name": "BrakeButton",
+															"className": "ImageButton",
+															"children": [
+																{ "name": "Pressed", "className": "ImageLabel" }
+															]
+														},
+														{
+															"name": "ExitButton",
+															"className": "ImageButton",
+															"children": [
+																{
+																	"name": "Pressed",
+																	"className": "ImageLabel"
+																},
+																{
+																	"name": "KeyImage",
+																	"className": "ImageLabel",
+																	"children": [
+																		{
+																			"name": "ButtonText",
+																			"className": "TextLabel"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "AccelerateButton",
+															"className": "ImageButton",
+															"children": [
+																{ "name": "Pressed", "className": "ImageLabel" }
+															]
+														}
+													]
+												},
+												{
+													"name": "SpeedoFrame",
+													"className": "Frame",
+													"children": [
+														{
+															"name": "OnFrame",
+															"className": "Frame",
+															"children": [
+																{ "name": "Speedo", "className": "ImageLabel" }
+															]
+														},
+														{
+															"name": "OffFrame",
+															"className": "Frame",
+															"children": [
+																{ "name": "Speedo", "className": "ImageLabel" }
+															]
+														},
+														{ "name": "UnitText", "className": "TextLabel" },
+														{ "name": "SpeedText", "className": "TextLabel" }
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "LocalVehiclePromptGui",
+									"className": "LocalScript",
+									"children": [
+										{
+											"name": "ButtonGuiPrototype",
+											"className": "BillboardGui",
+											"children": [
+												{
+													"name": "ButtonImage",
+													"className": "ImageButton",
+													"children": [
+														{ "name": "Pressed", "className": "ImageLabel" }
+													]
+												},
+												{
+													"name": "FlipImage",
+													"className": "ImageButton",
+													"children": [
+														{ "name": "Pressed", "className": "ImageLabel" }
+													]
+												},
+												{
+													"name": "BackgroundDesktop",
+													"className": "ImageLabel",
+													"children": [
+														{ "name": "borderPixel", "className": "ImageLabel" }
+													]
+												},
+												{
+													"name": "ButtonPrompt",
+													"className": "ImageLabel",
+													"children": [
+														{ "name": "TextLabel", "className": "TextLabel" }
+													]
+												},
+												{
+													"name": "BackgroundConsole",
+													"className": "ImageLabel",
+													"children": [
+														{ "name": "borderPixel", "className": "ImageLabel" }
+													]
+												}
+											]
+										},
+										{ "name": "CarValue", "className": "ObjectValue" }
+									]
+								},
+								{ "name": "LocalVehicleSeating", "className": "ModuleScript" },
+								{
+									"name": "Passenger",
+									"className": "LocalScript",
+									"children": [
+										{ "name": "CarValue", "className": "ObjectValue" }
+									]
+								},
+								{ "name": "Vehicle", "className": "Script" },
+								{ "name": "VehicleSeating", "className": "ModuleScript" }
+							]
+						},
+						{
+							"name": "Effects",
+							"className": "Folder",
+							"children": [
+								{ "name": "Accelerate", "className": "Sound" },
+								{ "name": "Engine", "className": "Sound" },
+								{ "name": "EngineHigh", "className": "Sound" },
+								{ "name": "EngineLow", "className": "Sound" },
+								{ "name": "EngineStart", "className": "Sound" },
+								{ "name": "EngineStop", "className": "Sound" },
+								{ "name": "Idle", "className": "Sound" },
+								{ "name": "OpenCloseDoor", "className": "Sound" },
+								{ "name": "TireTrail", "className": "Trail" }
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"name": null,
+	"className": "Sky",
+	"properties": {
+		"MoonAngularSize": 4.0,
+		"MoonTextureId": "rbxassetid://6444320592",
+		"SkyboxBk": "rbxassetid://6444884337",
+		"SkyboxDn": "rbxassetid://6444884785",
+		"SkyboxFt": "rbxassetid://6444884337",
+		"SkyboxLf": "rbxassetid://6444884337",
+		"SkyboxOrientation": {
+			"Vector3": [0.0, 0.0, 0.0]
+		},
+		"SkyboxRt": "rbxassetid://6444884337",
+		"SkyboxUp": "rbxassetid://6412503613",
+		"SourceAssetId": 332039975.0,
+		"SunAngularSize": 4.0,
+		"SunTextureId": "rbxassetid://6196665106"
+	}
+}

@@ -1,0 +1,11 @@
+/node_modules
+/out
+/include
+*.tsbuildinfo
+/dist
+*.lock
+*.rbxl
+.env
+.mantle-state.yml
+flamework.build
+package-lock.json

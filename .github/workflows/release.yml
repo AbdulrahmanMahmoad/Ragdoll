@@ -1,0 +1,63 @@
+name: Release Production
+
+on:
+  release:
+    types: [released]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: write
+
+concurrency:
+  group: production_environment
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+
+      - uses: CompeyDev/setup-rokit@v0.1.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Compile
+        run: bun prod:build
+
+      - name: Build project
+        run: rojo build ./build.project.json --output game.rbxl
+
+      - name: Upload place artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: game
+          path: game.rbxl
+
+  deploy:
+    runs-on: windows-latest
+    environment: production
+    needs: build
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: CompeyDev/setup-rokit@v0.1.2
+
+      - name: Download place artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: game
+
+      - name: Deploy game
+        run: mantle deploy --allow-purchases --environment production
+        env:
+          ROBLOSECURITY: ${{ secrets.ROBLOSECURITY }}
+          MANTLE_OPEN_CLOUD_API_KEY: ${{ secrets.MANTLE_OPEN_CLOUD_API_KEY }}
+          MANTLE_AWS_ACCESS_KEY_ID: ${{ secrets.MANTLE_AWS_ACCESS_KEY_ID }}
+          MANTLE_AWS_SECRET_ACCESS_KEY: ${{ secrets.MANTLE_AWS_SECRET_ACCESS_KEY }}
