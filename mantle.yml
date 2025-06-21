@@ -6,7 +6,7 @@ state:
         name: oregon
         endpoint: t4r6.or7.idrivee2-67.com
     bucket: game-mantle-states
-    key: game
+    key: ragdoll
 
 environments:
   - label: staging
@@ -18,7 +18,7 @@ environments:
       places:
         start:
           configuration:
-            name: "[Dev] Game "
+            name: Ragdoll Game (Staging)
             description: |
               This is a development build.
             maxPlayerCount: 20
@@ -42,33 +42,15 @@ target:
       start:
         file: game.rbxl
         configuration:
-          name: Game
+          name: Ragdoll Game
           description: |
-            Game 
+            A fun ragdoll physics game where you can play with friends!
+            Use the ragdoll to interact with the environment and other players.
           maxPlayerCount: 25
     products:
-      money-100:
-        price: 10
-        name: $100
-        description: Buy $100!
-        icon: assets/marketing/game_icon.png
-      money-250:
-        price: 20
-        name: $250
-        description: Buy $250!
-        icon: assets/marketing/game_icon.png
-      money-500:
-        price: 40
-        name: $500
-        description: Buy $500!
-        icon: assets/marketing/game_icon.png
-      money-1000:
-        price: 80
-        name: $1,000
-        description: Buy $1,000!
-        icon: assets/marketing/game_icon.png
-      money-5000:
-        price: 375
-        name: $5,000
-        description: Buy $5,000!
-        icon: assets/marketing/game_icon.png
+      badges:
+      welcomeBadge:
+        name: ✨ Welcome
+        description: Nothing can stop you now! Hit a score of 25,000.
+        icon: assets/badges/welcome_badge.png
+        enabled: true

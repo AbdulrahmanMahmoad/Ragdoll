@@ -1,6 +1,6 @@
-Game template
+Ragdoll Game
 
-# requirements
+# Requirements
 - Rokit
 - Bun
 
