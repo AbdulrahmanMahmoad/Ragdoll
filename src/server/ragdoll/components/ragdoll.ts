@@ -1,7 +1,7 @@
 import { BaseComponent, Component } from "@flamework/components";
 import { OnStart } from "@flamework/core";
-import { RagdollableComponent } from "./ragdollableComponent";
-import { offsets } from "./ragdollData";
+import { offsets } from "../ragdollData";
+import { RagdollableComponent } from "./ragdollable";
 
 interface RagdollInstance extends Humanoid {
 	Parent: Model;

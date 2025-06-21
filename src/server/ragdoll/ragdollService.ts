@@ -1,36 +1,40 @@
 import { OnInit, Service } from "@flamework/core";
+import { promiseR6 } from "@rbxts/promise-character";
 import { CollectionService, Players } from "@rbxts/services";
 
 @Service({})
 export class RagdollService implements OnInit {
 	public onInit(): void | Promise<void> {
-		Players.PlayerAdded.Connect((player) => {
-			this.onPlayerAdded(player);
+		Players.PlayerAdded.Connect(({ CharacterAdded }) => {
+			CharacterAdded.Connect((character) => this.handleCharacterModel(character));
 		});
 	}
 
 	private setRagdollable(humanoid: Humanoid, enabled = true): void {
-        if (enabled) {
-            CollectionService.AddTag(humanoid, "Ragdollable");
-        } else {
-            CollectionService.RemoveTag(humanoid, "Ragdollable");
-        }
+		if (enabled) {
+			CollectionService.AddTag(humanoid, "Ragdollable");
+		} else {
+			CollectionService.RemoveTag(humanoid, "Ragdollable");
+		}
 	}
 
-	private onPlayerAdded(player: Player): void {
-		player.CharacterAdded.Connect((character) => {
-			const humanoid = character.WaitForChild("Humanoid");
-			if (humanoid.IsA("Humanoid")) {
-				this.setRagdollable(humanoid);
-			}
-		});
+	private handleCharacterModel(model: Model): void {
+		promiseR6(model).andThen(({ Humanoid }) =>
+			this.setRagdollable(Humanoid, true),
+		);
 	}
 
 	public ragdollPlayer(humanoid: Humanoid): void {
-        CollectionService.AddTag(humanoid, "Ragdoll");
-    }
+		if (CollectionService.HasTag(humanoid, "Ragdoll")) return;
+		CollectionService.AddTag(humanoid, "Ragdoll");
+	}
 
-    public unragdollPlayer(humanoid: Humanoid): void {
-        CollectionService.RemoveTag(humanoid, "Ragdoll");
-    }
+	public unragdollPlayer(humanoid: Humanoid): void {
+		if (!CollectionService.HasTag(humanoid, "Ragdoll")) return;
+		CollectionService.RemoveTag(humanoid, "Ragdoll");
+	}
+
+	public isRagdollable(humanoid: Humanoid): boolean {
+		return CollectionService.HasTag(humanoid, "Ragdollable");
+	}
 }
