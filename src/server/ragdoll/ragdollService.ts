@@ -27,10 +27,16 @@ export class RagdollService implements OnInit {
 	}
 
 	public ragdollPlayer(humanoid: Humanoid): void {
+        if (CollectionService.HasTag(humanoid, "Ragdoll")) return;
         CollectionService.AddTag(humanoid, "Ragdoll");
     }
 
     public unragdollPlayer(humanoid: Humanoid): void {
+        if (!CollectionService.HasTag(humanoid, "Ragdoll")) return;
         CollectionService.RemoveTag(humanoid, "Ragdoll");
+    }
+
+    public isRagdollable(humanoid: Humanoid): boolean {
+        return CollectionService.HasTag(humanoid, "Ragdollable");
     }
 }

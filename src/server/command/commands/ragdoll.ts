@@ -36,8 +36,10 @@ export class RagdollCommand {
 			CollectionService.AddTag(
 				player.Character?.WaitForChild("Humanoid")!,
 				"Ragdoll",
-			);
-			ctx.reply(`Successfully ragdolled ${player.Name}`);
+			);	
 		}
+
+        const playerRagdolled = players.map((player) => player.Name).join(", ");
+        ctx.reply(`Successfully ragdolled ${playerRagdolled}`);
 	}
 }
