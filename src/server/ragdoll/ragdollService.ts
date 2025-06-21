@@ -6,7 +6,7 @@ import { CollectionService, Players } from "@rbxts/services";
 export class RagdollService implements OnInit {
 	public onInit(): void | Promise<void> {
 		Players.PlayerAdded.Connect(({ CharacterAdded }) => {
-			CharacterAdded.Connect(this.handleCharacterModel);
+			CharacterAdded.Connect((character) => this.handleCharacterModel(character));
 		});
 	}
 
