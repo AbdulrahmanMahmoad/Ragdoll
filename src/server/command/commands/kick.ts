@@ -6,9 +6,10 @@ import {
 	Guard,
 	Register,
 } from "@rbxts/centurion";
+import { RunService } from "@rbxts/services";
 
 const isAdmin: CommandGuard = (ctx) => {
-	if (ctx.executor.UserId !== 389450897) {
+	if (ctx.executor.UserId !== 389450897 || !RunService.IsStudio()) {
 		ctx.error("Insufficient permission!");
 		return false;
 	}

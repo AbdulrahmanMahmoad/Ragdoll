@@ -50,6 +50,7 @@ export class RagdollComponent
 			if (!collitionPart?.IsA("BasePart")) return;
 
 			collitionPart.CanCollide = eanbled;
+            part.CanCollide = !eanbled;
 		}
 	}
 
@@ -100,11 +101,14 @@ export class RagdollComponent
 	destroy() {
 		const character = this.instance.Parent;
 
-		this.instance.AutoRotate = true;
-		this.instance.PlatformStand = false;
-
+        this.instance.SetStateEnabled(Enum.HumanoidStateType.FallingDown, false);
+        this.instance.ChangeState(Enum.HumanoidStateType.GettingUp);
+        
 		this.setMotor6D(character, true);
 		this.destroyJoints(character);
 		this.setCollisionParts(character, false);
+        
+		this.instance.AutoRotate = true;
+		this.instance.PlatformStand = false;
 	}
 }
