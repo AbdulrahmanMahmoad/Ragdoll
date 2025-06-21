@@ -43,10 +43,3 @@ target:
             A fun ragdoll physics game where you can play with friends!
             Use the ragdoll to interact with the environment and other players.
           maxPlayerCount: 25
-    products:
-      badges:
-      welcomeBadge:
-        name: ✨ Welcome
-        description: Nothing can stop you now! Hit a score of 25,000.
-        icon: assets/badges/welcome_badge.png
-        enabled: true
