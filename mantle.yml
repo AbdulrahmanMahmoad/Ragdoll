@@ -13,8 +13,6 @@ environments:
     targetNamePrefix: environmentLabel
     targetAccess: private
     targetOverrides:
-      icon: assets/marketing/game_icon_staging.png
-      thumbnails: [assets/marketing/game_thumbnail.jpg]
       places:
         start:
           configuration:
@@ -28,8 +26,6 @@ environments:
 
 target:
   experience:
-    icon: assets/marketing/game_icon.png
-    thumbnails: [assets/marketing/game_thumbnail.jpg]
     configuration:
       playableDevices: [computer, console, phone, tablet]
       privateServers:

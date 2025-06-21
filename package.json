@@ -33,6 +33,9 @@
 	"dependencies": {
 		"@flamework/components": "^1.3.1",
 		"@flamework/core": "^1.3.1",
-		"@rbxts/services": "^1.5.5"
+		"@rbxts/centurion": "^1.0.1",
+		"@rbxts/centurion-ui": "^1.0.8",
+		"@rbxts/services": "^1.5.5",
+		"@rbxts/t": "^3.2.1"
 	}
 }
